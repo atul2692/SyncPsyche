@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'login.css' %}">
+
+    <title>Syncpsyche | Signup</title>
+</head>
+<body>
+
+
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="nav-links">
+            <a href="#">Business</a>
+            <a href="#">About</a>
+            <a href="#">Advice</a>
+            <a href="#">FAQ</a>
+            <a href="#">Therapist jobs</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="nav-buttons">
+            <button class="login-btn">Login</button>
+            <button class="get-started-btn">Get started</button>
+        </div>
+    </div>
+
+
+    <div class="lg_main">
+        <div class="lg_text">
+            
+            <p class="lg_text1">"There is only one corner of the <br> universe that you can be certain of <br> improving, and that's your own self."</p>
+            <br>
+            <p class="lg_text2">Aldous Huxley</p>
+        </div>
+
+        <div class="lg_email_box">
+            <input type="email" placeholder="Email Address">
+            <input type="password" placeholder="Password">
+            <button>Get Started</button>
+            <a href="{% url 'login' %}">Have Account? Login</a>
+        </div>
+    </div>
+
+    <div class="lg_down1">
+        <p>If you are in a crisis or any other person may be in danger - don't use this site. These resources can provide you with immediate help.</p>
+
+        <a href="#">Terms & Conditions</a> 
+        <a href="#">Privacy Policy</a> 
+        <a href="#">&copy;&nbsp;2025 BetterHelp</a>
+    </div>
+
+
+</body>
+</html>

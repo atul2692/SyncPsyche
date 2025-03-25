@@ -1,0 +1,194 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+*{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* **********************navbar*********************** */
+.navbar {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7vh;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+.logo img {
+    height: 4vh;
+    margin-right: 10px;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 15.5%;
+}
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.05rem;
+}
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+.login-btn {
+    border: 1px solid black;
+    padding: 8px 15px;
+    color: black;
+    background: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    color: #a3db9a;
+    border-color: #a3db9a;
+}
+
+
+.get-started-btn {
+    background-color: white;
+    color: #2D4A3E;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-style: hidden;
+}
+
+.get-started-btn:hover{
+    background-color:#a3db9a ;
+}
+
+
+
+
+
+
+
+.lg_main{
+    height: 85vh;
+    width: 100%;
+    background-color: #325343;
+    display: flex;
+}
+
+.lg_main .lg_text{
+    height: 30vh;
+    width: 35%;
+    color: white;
+    position: relative;
+    top: 8vh;
+    left: 10vw;
+    
+}
+
+.lg_main .lg_text .lg_text1{
+    font-size: 2rem;
+}
+
+.lg_main .lg_text .lg_text2{
+    font-size: 1.4rem;
+}
+
+
+.lg_email_box{
+    height: 50vh;
+    width: 35%;
+    padding-top: 50px ;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    top: 6vh;
+    left: 16vw;
+}
+
+.lg_email_box input{
+    width: 90%;
+    height: 6vh;
+    padding: 1.4rem;
+    margin-bottom: 4%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.lg_email_box input:hover{
+    border : 3px solid #a6de9b;
+    outline: none;
+}
+
+
+.lg_email_box button{
+    height: 6vh;
+    width: 90%;
+    margin-top: 2vh;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a6de9b;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+
+.lg_email_box button:hover{
+    background-color: #397a4a;
+    color: white;
+}
+
+.lg_email_box a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.lg_email_box a:hover{
+    color: #a3db9a;
+    text-decoration: underline #a3db9a;
+}
+
+
+
+.lg_down1{
+    height: 20vh;
+    width: 100%;
+    padding-left: 5vw;
+}
+
+.lg_down1 p{
+    margin-left: 2vw;
+    margin-top: 1.8vw;
+    margin-bottom: 1.9vw;
+}
+
+.lg_down1 a{
+    margin-left: 2vw;
+    text-decoration: none;
+    color: black;
+}
+
+.lg_down1 a:hover{
+    color: #a3db9a;
+    text-decoration: underline #a3db9a;
+}
