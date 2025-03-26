@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+/* ***********************navbar************************ */
+.navbar {
+    background-color: #2D4A3E;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7vh;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+.logo img {
+    height: 4vh;
+    margin-right: 10px;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 15.5%;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.05rem;
+}
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+.login-btn {
+    border: 1px solid white;
+    padding: 8px 15px;
+    color: white;
+    /* background: none; */
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.login-btn:hover{
+    color: #a3db9a;
+    border-color: #a3db9a;
+}
+
+
+.get-started-btn {
+    background-color: white;
+    color: #2D4A3E;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border-style: hidden;
+}
+
+.get-started-btn:hover{
+    background-color:#a3db9a ;
+}
+
+.therapy-section {
+    padding: 50px 20px;
+    background-color: #2D4A3E;
+    color: white;
+    height: 73vh;
+}
+
+.therapy-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    position: relative;
+    left: 32%;
+    top: 10px;
+    font-weight: 100;
+}
+
+.therapy-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    position: relative;
+    left: 38%;
+    top: 10px;
+}
+
+.therapy-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.option {
+    width: 47vh;
+    height: 40vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.option:hover {
+    border: solid 1px;
+}
+
+.individual {
+    background-image: url(../static/images/img1.jpg);
+}
+
+.couples {
+    background-image: url(../static/images/img2.jpg);
+}
+
+.teen {
+    background-image: url(../static/images/img3.jpg);
+}
+
+.option-first-line{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: x;
+    position: relative;
+    bottom: 65%;
+}
+
+.option-second-line{
+    margin-top: 5px;
+    font-size: 16px;
+    position: relative;
+    bottom: 65%;
+    right: 37%;
+}
+
+span {
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.khali{
+    height: 100vh;
+    background-color: beige;
+    position: relative;
+    top: 17vh;
+    width: 100%;
+}
+
+.footer {
+    background-color: #F9FAF8;
+    padding: 4vh;
+    text-align: center;
+    font-size: 2vh;
+    color: #333;
+    position: relative;
+    bottom: 0;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-bottom: 2vh;
+}
+.footer-links a {
+    text-decoration: none;
+    color: #333;
+}

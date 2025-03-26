@@ -12,8 +12,8 @@
 
 
     <div class="navbar">
-        <div class="logo">
-            <img src="logo.png" alt="Logo">
+        <div class="logo_img">
+            <!-- img here -->
         </div>
         <div class="nav-links">
             <a href="#">Business</a>
@@ -38,9 +38,10 @@
             <p class="lg_text2">Aldous Huxley</p>
         </div>
 
-        <div class="lg_email_box">
-            <input type="email" placeholder="Email Address">
-            <input type="password" placeholder="Password">
+        <div class="lg_email_box" style="height: 55vh;">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="password" placeholder="Password" required>
             <button>Get Started</button>
             <a href="{% url 'login' %}">Have Account? Login</a>
         </div>

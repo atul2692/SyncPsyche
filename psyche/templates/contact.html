@@ -1,0 +1,129 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'contact.css' %}">
+</head>
+<body>
+    
+    <!-- this is the navbar html -->
+    <nav class="navbar">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="x.png" alt="SyncPsyche Logo">
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="nav-links">
+            <a href="#">Business</a>
+            <a href="#">About</a>
+            <a href="#">Advice</a>
+            <a href="#">FAQ</a>
+            <a href="#">Therapist Jobs</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <!-- Buttons -->
+        <div class="nav-buttons">
+            <a href="#" class="login-btn">
+                <i class="fas fa-user"></i> Login
+            </a>
+            <a href="#" class="get-started-btn">
+                 Get Started
+            </a>
+        </div>
+    </nav>
+
+    <div class="contact-section">
+        <h2>Contact us</h2>
+        <p>Use this form to reach out to our Customer  Team regarding any questions, concerns, or feedback.</p>
+        <p>You can also view our <a href="#">FAQ</a> for quick answers to commonly asked questions.</p>
+    </div>
+
+    <div class="container">
+        <div class="contact-form">
+            <h2>Type of contact</h2>
+            <form>
+                <label><input type="radio" name="contact"> I am a registered client and I need support.</label>
+                <label><input type="radio" name="contact"> I am a current BetterHelp therapist and I need support.</label>
+                <label><input type="radio" name="contact"> I am a therapist interested in joining or a current applicant.</label>
+                <label><input type="radio" name="contact"> I have a question about the service.</label>
+                <label><input type="radio" name="contact"> I have a billing related question.</label>
+                <label><input type="radio" name="contact"> I have a press-related question.</label>
+                <label><input type="radio" name="contact"> I have a business-related inquiry.</label>
+                <label><input type="radio" name="contact"> I'm interested in BetterHelp for my organization.</label>
+            </form>
+        </div>
+        
+        <div class="contact-info">
+            <p><strong>SyncPsyche</strong></p>
+            <p>000 Villa Street,</p>
+            <p>Mountain View, CA 94041</p>
+            <p>USA</p>
+            <p><a href="mailto:contact@SyncPsyche.com">contact@SyncPsyche.com</a></p>
+        </div>
+    </div>
+
+    
+
+    <div class="form-container">
+        <form>
+            <input type="text" placeholder="First name" class="input-field">
+            <input type="text" placeholder="Last name" class="input-field">
+            <input type="email" placeholder="Email address" class="input-field">
+            <textarea placeholder="Message" class="textarea-field"></textarea>
+
+            <label class="checkbox-container">
+                <input type="checkbox">
+                <p>By clicking “Submit” you agree to the processing of your personal information for the purpose of responding to this inquiry. For more information about how we use and retain your information, please see our <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.</p>
+            </label>
+            
+        </form>
+        <button class="btn-1">Submit</button>
+
+    </div>
+
+    <div class="bottom-section">
+        
+        <div class="top-links">
+            <a href="#">Home</a>
+            <a href="#">Business</a>
+            <a href="#">About</a>
+            <a href="#">FAQ</a>
+            <a href="#">Advice</a>
+            <a href="#">Careers</a>
+            <a href="#">Find a Therapist</a>
+            <a href="#">Contact</a>
+            <a href="#">For Therapists</a>
+        </div>
+    
+        <hr class="divider">
+    
+        <div class="bottom-links">
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Sharing Settings</a>
+            <a href="#">Web Accessibility</a>
+            <span>© 2025 SyncPsyche</span>
+        </div>
+    
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+    
+    <!-- Font Awesome for Social Icons -->
+    <script src="https://kit.fontawesome.com/YOUR_KIT_CODE.js" crossorigin="anonymous"></script>
+    
+    
+
+</body>
+</html>

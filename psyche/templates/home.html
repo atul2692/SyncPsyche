@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SyncPsyche</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="nav-links">
+            <a href="#">Business</a>
+            <a href="#">About</a>
+            <a href="#">Advice</a>
+            <a href="#">FAQ</a>
+            <a href="#">Therapist jobs</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="nav-buttons">
+            <button class="login-btn"><a href="{% url 'login' %}">Login</a></button>
+            <button class="get-started-btn">Get started</button>
+        </div>
+    </div>
+
+    
+    <section class="therapy-section">
+        <h1>You deserve to be happy.</h1>
+        <p>What type of therapy are you looking for?</p>
+        
+        <div class="therapy-options">
+            <div class="option individual">
+                <div class="option-first-line"><h2>Individual</h2></div>
+                <div class="option-second-line"><p>For myself <span>&#8594;</span></p></div>
+            </div>
+            <div class="option couples">
+                <div class="option-first-line"><h2>Couples</h2></div>
+                <div class="option-second-line"><p>For me and my partner <span>&#8594;</span></p></div>
+            </div>
+            <div class="option teen">
+                <div class="option-first-line"><h2>Teen</h2></div>
+                <div class="option-second-line"><p>For my child <span>&#8594;</span></p></div>
+            </div>
+        </div>
+    <div class="khali">
+        <div class="container">
+            <div class="left-section fade-in">
+                <div class="highlight"></div>
+                <h1>The world's largest<br>therapy service.<br><span class="green-text">100% online.</span></h1>
+            </div>
+            <div class="right-section">
+                <div class="stat fade-in">
+                    <h2>423,320,769</h2>
+                    <p>Messages, chat, audio, video sessions</p>
+                </div>
+                <div class="stat fade-in">
+                    <h2>30,008</h2>
+                    <p>Qualified therapists ready to help</p>
+                </div>
+                <div class="stat fade-in">
+                    <h2>5,484,645</h2>
+                    <p>People got help</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Sharing Settings</a>
+            <a href="#">Web Accessibility</a>
+        </div>
+        <div>&copy; 2025 BetterHelp</div>
+    </footer>
+</body>
+</html>
